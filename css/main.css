@@ -1,0 +1,111 @@
+.white{
+	color: white;
+}
+.yellow{
+	color: #fcce09;
+}
+.gray{
+	color: #bebec4;
+}
+/*------*/
+.barra{
+	background-color: #f8f8f8;
+	width: 100%;
+}
+.navg{
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.navg1{
+	margin-left: 66%;
+}
+a { 
+	text-decoration: none; 
+}
+a:hover { 
+	-webkit-background-clip: text; color: white; 
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ea8711), to(#d96363)); 
+	background-image: -webkit-linear-gradient(left, #ea8711, #d96363, #73a6df, #9085fb, #52ca79); 
+	background-image: -moz-linear-gradient(left, #ea8711, #d96363, #73a6df, #9085fb, #52ca79); 
+	background-image: -ms-linear-gradient(left, #ea8711, #d96363, #73a6df, #9085fb, #52ca79); 
+	background-image: -o-linear-gradient(left, #ea8711, #d96363, #73a6df, #9085fb, #52ca79); 
+}
+
+.fondo1{
+	background-image: url(../img/home.jpg);
+	width: 100%;
+    height: 579px;
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position: center;
+}
+.texto-fondo{
+	margin-top: 15%;
+}
+.botonazul{
+	width: 112px;
+    height: 40px;
+    border: #337ab7 solid 1px;
+    background-color: #337ab7;
+    border-radius: 7%;
+    margin-left: 45%;
+}
+.fondo3{
+	background-color: #ffff00; 
+}
+.hackathon{
+	width: 100%;
+	margin-top: 5%;
+    margin-bottom: 5%;
+}
+.made{
+	width: 100%;
+	margin-top: 12%;
+    height: 294px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 5%;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: 1px solid gray;
+	border-radius: 6%;
+}
+.part1{
+	margin-bottom: 2%;
+}
+.part2{
+	margin-bottom: 2%;
+}
+.part3{
+	margin-bottom: 2%;
+}
+.part4{
+	padding-bottom: 10%;
+}
+.boton-envio{
+	width: 112px;
+    height: 40px;
+    border: #337ab7 solid 1px;
+    background-color: #337ab7;
+    border-radius: 7%;
+    color: white;
+}
+.barra2{
+	background-color: #4497a3;
+	width: 100%;
+	height: 130px;
+}
+.foot{
+	margin-top: 3%;
+}
+
+@media (max-width: 767px) {
+	iframe{
+		width: 100%;
+		height: 490px;
+	}
+}
