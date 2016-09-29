@@ -8,17 +8,17 @@
 	color: #bebec4;
 }
 /*------*/
-.barra{
-	background-color: #f8f8f8;
-	width: 100%;
+
 }
-.navg{
-	float: left;
-	margin-top: 2%;
-	margin-left: 2%;
+nav{
+	background-color: #bebec4;
+	height: 62px;
 }
-.navg1{
-	margin-left: 66%;
+.navbar-toggle{
+	border: 1px solid #bebec4;
+}
+.icon-bar{
+	background-color: #bebec4;
 }
 a { 
 	text-decoration: none; 
@@ -36,13 +36,16 @@ a:hover {
 .fondo1{
 	background-image: url(../img/home.jpg);
 	width: 100%;
-    height: 579px;
+    padding-bottom: 5%;
     background-repeat: no-repeat;
     background-size: 100% 150%;
     background-position: center;
 }
 .texto-fondo{
 	margin-top: 15%;
+}
+.texth1{
+	font-size: 25px;
 }
 .botonazul{
 	width: 112px;
@@ -52,13 +55,24 @@ a:hover {
     border-radius: 7%;
     margin-left: 45%;
 }
+.boton{
+	padding-left: 15%;
+}
 .fondo3{
-	background-color: #ffff00; 
+	background-color: #ffff00;
+	padding-bottom: 5%;
 }
 .hackathon{
 	width: 100%;
 	margin-top: 5%;
     margin-bottom: 5%;
+}
+.botonazul2{
+	width: 112px;
+    height: 40px;
+    border: #337ab7 solid 1px;
+    background-color: #337ab7;
+    border-radius: 7%;
 }
 .made{
 	width: 100%;
@@ -97,13 +111,22 @@ input, textarea{
 .barra2{
 	background-color: #4497a3;
 	width: 100%;
-	height: 130px;
+	padding-bottom: 3%;
 }
 .foot{
 	margin-top: 3%;
 }
+.codeh3{
+	font-size: 13px;
+}
 
 @media (max-width: 767px) {
+	iframe{
+		width: 100%;
+		height: 490px;
+	}
+}
+@media (max-width: 992px) {
 	iframe{
 		width: 100%;
 		height: 490px;
